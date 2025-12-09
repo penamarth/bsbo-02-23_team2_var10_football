@@ -158,7 +158,7 @@ namespace FootballTicketSystem
 
         static void ReturnTicketProcess()
         {
-            Console.WriteLine("\n=== ВОЗВРАТ БИЛЕТА ===\n");
+            Console.WriteLine("\nВОЗВРАТ БИЛЕТА\n");
             Console.Write("Введите номер билета: ");
             string ticketId = Console.ReadLine();
 
@@ -174,7 +174,7 @@ namespace FootballTicketSystem
 
         static void BuySeasonTicketProcess()
         {
-            Console.WriteLine("\n=== ПОКУПКА АБОНЕМЕНТА ===\n");
+            Console.WriteLine("\nПОКУПКА АБОНЕМЕНТА\n");
             Console.WriteLine("Доступные сектора:");
 
             var matches = facade.GetAllMatches();
